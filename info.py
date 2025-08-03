@@ -13,20 +13,22 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '22602938'))
-API_HASH = environ.get('API_HASH', 'a196005616395c7622007d20505c5fdc')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7659270608:AAHixtrOEYY46-EjObU1g0NZkrfvr900hqU')
+API_ID = int(environ.get('API_ID', '24769265'))
+API_HASH = environ.get('API_HASH', 'aa506271aaa05ce758cc5d13f004350f')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6640681806:AAHR71x7Ym7MnOOdd3aEZScBZ2rMrk5k_J8
+')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1218255443').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/vishnujha") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002271049743'))
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6308306708').split()]
+USERNAME = environ.get('USERNAME', "https://t.me/Bot_266") # ADMIN USERNAME
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '6308306708'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+jQoUvx8qnJFiMDA1')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002334813619').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002888714764').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://vkentertainment2024:jUQyPByODHFHP6F4@cluster0.twsjc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "techvjclonefilterbot")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://kundan2pi:Xb3$M#wekzyz5i-@heydd.2oww5ic.mongodb.net/?retryWrites=true&w=majority&appName=Heydd
+")
+DATABASE_NAME = environ.get('DATABASE_NAME', "heydd")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
